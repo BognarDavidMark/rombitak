@@ -1,7 +1,5 @@
-import controllers.MainController;
-
 /*
-* File: App.java
+* File: AlphaPanel.java
 * Author: Bognár Dávid Márk
 * Copyright: 2023, Bognár Dávid Márk
 * Group: Szoft II/N
@@ -10,8 +8,10 @@ import controllers.MainController;
 * Licenc: GNU GPL
 */
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        new MainController();
+package views;
+
+public class AlphaPanel extends InputPanel {
+    public AlphaPanel() {
+        this.label.setText("Alfa szög");
     }
 }

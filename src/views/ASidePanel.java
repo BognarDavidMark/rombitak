@@ -1,7 +1,5 @@
-import controllers.MainController;
-
 /*
-* File: App.java
+* File: ASidePanel.java
 * Author: Bognár Dávid Márk
 * Copyright: 2023, Bognár Dávid Márk
 * Group: Szoft II/N
@@ -10,8 +8,10 @@ import controllers.MainController;
 * Licenc: GNU GPL
 */
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        new MainController();
+package views;
+
+public class ASidePanel  extends InputPanel{
+    public ASidePanel() {
+        this.label.setText("A oldal");
     }
 }
